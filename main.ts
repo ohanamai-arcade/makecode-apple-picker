@@ -86,7 +86,7 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 controller.moveSprite(mySprite)
 info.setScore(0)
-info.startCountdown(50)
+info.startCountdown(60)
 scene.cameraFollowSprite(mySprite)
 game.onUpdateInterval(500, function () {
     Apples = sprites.create(img`
